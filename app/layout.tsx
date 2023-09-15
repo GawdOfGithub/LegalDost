@@ -112,12 +112,12 @@ export default function RootLayout({
               </li>
               <li>
                 
-                <a
-                  className="block px-4 py-2 text-base font-semibold text-gray-500 hover:bg-gray-200"
-                  href="#"
-                >
-                  Item 3
-                </a>
+              <Link
+                className="block px-4 py-2 text-base font-semibold text-gray-500 hover:bg-gray-200"
+                href="/about"
+              >
+                About us 
+              </Link>
               </li>
             </ul>
           </div>
